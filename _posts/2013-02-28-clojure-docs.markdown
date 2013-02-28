@@ -6,7 +6,7 @@ comments: true
 tag: clojure
 ---
 
-What is the first thing you do, when you discover new language you want to try? Let me guess - you'll open new browser tab and google for it. Eventually you'll end up on the official site then you'll search for "getting started" tutorial in the docs section. On Clojure [official site][site] it says "download and unzip Clojure". Wait, download and unzip? Where is info about my favorite package manager? Why there is only one sentence about [leiningen][lein]? 
+What is the first thing you do, when you discover a new language you want to try? Let me guess - you'll open a new browser tab and google for it. Eventually you'll end up on the official site searching for "getting started" tutorial in the docs section. On Clojure [official site][site] it says "download and unzip Clojure". Wait, download and unzip? Where is info about my favorite package manager? Why there is only one sentence about [leiningen][lein]? 
 
 There are [many][so] [questions][so2] on stackoverflow from ubuntu users trying to get ubuntu via apt-get or something. I think many problems would be solved if starters go first to this [getting started article][start] on community driven [documentation site][doc] for Clojure. This article is great for newbies.
 
