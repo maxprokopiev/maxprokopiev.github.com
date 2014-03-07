@@ -20,9 +20,9 @@ So here is my setup. I've structured it like they do it on [usethis][usethis] we
 
 ## What hardware do you use?
 I use a MacBook Pro 15". Previously I had 13" MacBook and 17" Acer laptop before it.
-I don't use monitor for one reason: I want to have the same setup everywhere - at work, home, coffeeshop, etc.
+I don't use an external display for one reason: I want to have the same setup everywhere - at work, home, coffeeshop, etc.
 ## And what software?
-From the info above it's obviously a Mac OS X.
+From the info above it's obvious that I'm using a Mac OS X.
 
 I love one-desktop-one-application approach. It keeps me from distractions and allows to concentrate on one thing at a time.
 
@@ -34,12 +34,14 @@ Usually I have 5-6 desktops:
   like find something in the Downloads folder, upload a picture, mount a flash drive or quickly open mail app.
 * Next desktop is always for the Chrome web browser
 * Then I have nerdy things like text editor and iTerm. I'm using Vim for several years, but this year I've started an expreriment to try different text editors.
-  First two months I was using Sublime Text 3 and it's great. Starting with March I set up Emacs (you can find it on the screenshot above)
-* Last two windows are chats (Campfire, Hipchat, Skype) and [Things][things] app.
+  First two months I was using Sublime Text 3 and it's great. This month I've set up the Emacs (you can find it on the screenshot above)
+* Last two desktops are chats (Campfire, Hipchat, Skype) and [Things][things] app.
 
 ### Things
-Things app is for getting things out of my head. Every new idea, task or unread email going to an Inbox folder in this app.
-Multiple times a day I'm processing Inbox and creating projects from it's items. This app helps me **a lot**.
+Things app is for getting things out of my head. Every new idea, task or important email going to an Inbox folder in this app.
+Multiple times a day I'm processing Inbox and creating projects from it's items.
+
+This app helps me **a lot**.
 Maybe I'll write about my Things workflow in next posts.
 
 ### iTerm & friends
