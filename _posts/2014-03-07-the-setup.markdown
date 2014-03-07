@@ -1,0 +1,71 @@
+---
+layout: post
+title: The Setup
+category: posts
+comments: true
+---
+
+I'm always curious about other people's workflow. It's just interesting what tools they use to make things done.
+And this is not about knowing their secret sauce which keeps them productive or something, it's more about exploring new things
+and learning new ways to use your everyday tools.
+
+That's why I like to do pair programming from time to time. You just can seat near your team mate and see all these amazing things he do.
+
+So here is my setup. I've structured it like they do it on [usethis][usethis] website:
+
+* What hardware do you use?
+* And what software?
+* Things you want to try _(this is my addition)_
+* What would be your dream setup?
+
+## What hardware do you use?
+I use a MacBook Pro 15". Previously I had 13" MacBook and 17" Acer laptop before it.
+I don't use monitor for one reason: I want to have the same setup everywhere - at work, home, coffeeshop, etc.
+## And what software?
+From the info above it's obviously a Mac OS X.
+
+I love one-desktop-one-application approach. It keeps me from distractions and allows to concentrate on one thing at a time.
+
+Usually I have 5-6 desktops:
+
+[![desktops](/images/desktops.png)][desktops]
+
+* First one is usually have only Activity Monitor to quickly kill frozen process. Also I use it for temporary apps
+  like find something in the Downloads folder, upload a picture, mount a flash drive or quickly open mail app.
+* Next desktop is always for the Chrome web browser
+* Then I have nerdy things like text editor and iTerm. I'm using Vim for several years, but this year I've started an expreriment to try different text editors.
+  First two months I was using Sublime Text 3 and it's great. Starting with March I set up Emacs (you can find it on the screenshot above)
+* Last two windows are chats (Campfire, Hipchat, Skype) and [Things][things] app.
+
+### Things
+Things app is for getting things out of my head. Every new idea, task or unread email going to an Inbox folder in this app.
+Multiple times a day I'm processing Inbox and creating projects from it's items. This app helps me **a lot**.
+Maybe I'll write about my Things workflow in next posts.
+
+### iTerm & friends
+I'm using [tmux][tmux] to manage my projects in console (running servers, background jobs, vim instances, ssh connections).
+With the help of [tmuxinator][tmuxinator] I can define and save a layout of tmux windows and panes, running processes
+in each window and start each project with one commmand. [Here][shellmagick] I have my tmux config, you can borrow some stuff from it if you want.
+
+## Things you want to try
+
+This section I've mostly written here for my future self to look back on.
+
+* Emacs (already trying)
+* Standing desk
+* Ergo keyboard (like [Kinesis Advantage][kinesis] or [ErgoDox][ergodox] DIY keyboard)
+
+## What would be your dream setup?
+
+Computer that just works. You know, all things in IT are broken - computers are stupid, open source tools can ruin your workflow from time to time,
+third-party services can leak your personal info to anyone. I want a machine/services which can recognize me through fingerprints or something like
+that so I don't need passwords. I want an infinite secure backup and storage solution for my documents and photos. I want ...
+
+[usethis]: http://usesthis.com/
+[things]: https://culturedcode.com/things/
+[tmux]: http://tmux.sourceforge.net/
+[tmuxinator]: https://github.com/tmuxinator/tmuxinator
+[shellmagick]: https://github.com/juggler/shellmagick/blob/master/tmux/tmux.conf
+[kinesis]: http://kinesis-ergo.com/shop/advantage-lf-for-pc-mac/
+[ergodox]: http://ergodox.org/
+[desktops]: /images/desktops.png
