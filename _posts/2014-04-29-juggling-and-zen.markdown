@@ -20,7 +20,7 @@ on a problem you're working on right now. You are living in the current moment
 and time seems to fall away. Some people call it "zone" or "flow".
 
 I love this moments. Everyone love them. But it's hard to get in there.
-There is no magical spell that get you "into the zone" (but I always will be praying for it).
+There is no magical spell that can get you "into the zone" (but I'm always will be praying for it).
 I found that juggling helps me with this problem - in 5 minutes of juggling
 I can feel myself relaxed, confident and ready to work on anything.
 It transfers my mind to the place where everything seems to be clear and in the right order.
