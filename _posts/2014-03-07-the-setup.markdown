@@ -30,9 +30,9 @@ Usually I have 5-6 desktops:
 
 * First one usually has only Activity Monitor to quickly kill frozen process. Also I use it for temporary apps
   like find something in the Downloads folder, upload a picture, mount a flash drive or quickly open mail app.
-* Next desktop is always for the Chrome web browser
+* Next desktop is always for the Chrome web browser.
 * Then I have nerdy things like text editor and iTerm. I'm using Vim for several years, but this year I've started an expreriment trying different text editors.
-  First two months I was using Sublime Text 3 and it's great. This month I've set up the Emacs (you can find it on the screenshot above)
+  First two months I was using Sublime Text 3 and it's great. This month I've set up the Emacs.
 * Last two desktops are chats (Campfire, Hipchat, Skype) and [Things][things] app.
 
 ### Things
