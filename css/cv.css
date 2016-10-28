@@ -1,0 +1,85 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+}
+
+#container {
+	margin: auto;
+	width: 900px;
+}
+
+h1.pagetitle {
+	float: left;
+	font-size: 3.6em;
+	margin-top: 0;
+	margin-bottom: 0.15em;
+}
+
+#contact {
+	float: right;
+	margin-top: 10px;
+	font-size: 1.2em;
+	text-align: right;
+	font-family:Courier, sans-serif;
+}
+
+.content {
+	width: 100%;
+	clear: both;
+}
+
+h2 {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 0.3em;
+}
+
+.job {
+	clear:both;
+	page-break-inside: avoid;
+}
+
+.job .row1 {
+	line-height: 1.8em;
+}
+
+.job .row1 .company {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.job .row1 .location {
+	color: #555;
+	display: inline-block;
+	width: 15%;
+}
+
+.job .row2 {
+	line-height: 1.6em;
+}
+
+.job .row2 .date {
+	color: #555;
+	display: inline-block;
+	width: 15%;
+}
+
+.job .row2 .jobtitle {
+	text-transform: uppercase;
+	margin-left: 0;
+}
+
+.job .date, .job .location {
+	font-size: 0.825em;
+}
+
+.job .description {
+	clear: both;
+	margin-top: 0.25em;
+	margin-left: 15.4%;
+}
+
+.job .description p {
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
