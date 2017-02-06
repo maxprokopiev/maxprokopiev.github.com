@@ -4,17 +4,17 @@ title: "\"Boring\" things"
 category: posts
 ---
 
-One of the useful skills for people working in tech industry is the ability to avoid hypes and focus on stuff that matters instead.
-But the problem is that things that matter, that improve your productivity and processes are considered "boring".
+One of the most useful skills for people working in tech industry is the ability to avoid hypes and focus on stuff that matters instead.
+But the problem is that the things that matter, that improve your productivity and processes are considered "boring".
 
-Do you want to start using React or to finally set up a proper error reporting solution for your frontend app?
+Do you want to start using React or finally set up a proper error reporting solution for your frontend app?
 
 Yes, I know the answer.
 
 ## Security
 
 Should you care about NSA breaking into your infrastructure if you're running a food delivery company or a knitting website? Probably not.
-I know it's fun to spend nights coding your home-grown pentest solution or reverse engineer a binary to find a bug and write a 0-day exploit.
+I know it's fun to spend nights coding your home-grown pentest solution or reverse engineering a binary to find a bug and write a 0-day exploit.
 But that's not what you should focus on. *Focus on boring stuff*.
 
 Make sure that everyone's laptop is properly encrypted.
@@ -39,7 +39,7 @@ But chances are you'll probably be fine on OpsWorks with the classic "load balan
 ## Coding style
 
 Boy oh boy... How many times have you been involved in these hour-long "tabs VS spaces"-like discussions?
-Haven't you fed up with them already? Put a linter in place, agree once on all the rules and styles, be consistent with using them.
+Aren't you fed up with them already? Put a linter in place, agree once on all the rules and styles, be consistent with using them.
 
 *Let machines fight.*
 
