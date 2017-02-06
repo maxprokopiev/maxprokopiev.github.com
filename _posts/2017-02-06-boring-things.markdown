@@ -65,4 +65,12 @@ Ask them for 10 minutes of their time and explain your solution over a cup of te
 I knoooow that's for old people, we are living on the edge - in a dark room with the closed door from where you can only hear some clicky sounds.
 But just try that and you'll never see these giant pull requests full of drama which you have after every iteration.
 
+## Learn to enjoy boring
+
+Next time you think about what to do next, make a list of "boring" chores that you've been avoiding for a long time.
+
+Then start with the first item from that list.
+
+It'll pay off, I promise.
+
 I love boring.
