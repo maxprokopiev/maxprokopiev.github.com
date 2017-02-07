@@ -100,3 +100,12 @@ section {
   margin: 5ex 0;
   color: rgba(255, 255, 255, 0.87);
 }
+
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px) {
+  body {
+    width: auto;
+    margin: 25px;
+  }
+}
