@@ -4,9 +4,9 @@ title: Max Prokopiev
 email: me@maxprokopiev.com
 description: Max Prokopiev
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://maxprokopiev.com" # the base hostname & protocol for your site
-twitter_username: maxprokopiev
-github_username:  maxprokopiev
+url: "https://maxprokopiev.com" # the base hostname & protocol for your site
+github_username: maxprokopiev
 
 # Build settings
 markdown: kramdown
+timezone: "UTC"

@@ -37,6 +37,17 @@ h2 {
 .job {
 	clear:both;
 	page-break-inside: avoid;
+	display: flex;
+	gap: 0;
+}
+
+.job .column1 {
+	width: 15%;
+	flex-shrink: 0;
+}
+
+.job .column2 {
+	flex: 1;
 }
 
 .job .row1 {
@@ -50,8 +61,6 @@ h2 {
 
 .job .row1 .location {
 	color: #555;
-	display: inline-block;
-	width: 15%;
 }
 
 .job .row2 {
@@ -60,8 +69,6 @@ h2 {
 
 .job .row2 .date {
 	color: #555;
-	display: inline-block;
-	width: 15%;
 }
 
 .job .row2 .jobtitle {
@@ -76,7 +83,6 @@ h2 {
 .job .description {
 	clear: both;
 	margin-top: 0.25em;
-	margin-left: 15.4%;
 }
 
 .job .description p {

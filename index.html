@@ -2,25 +2,50 @@
 layout: default
 ---
 
-<section>
-  <p id="title">Hey :) I'm Max Prokopiev.</p>
-  <p>Software Engineer from Berlin, Germany.</p>
-</section>
+<div class="home content-wrap">
+  <h1>Max Prokopiev</h1>
+  <p class="intro">
+    Software engineer at <a href="https://github.com">GitHub</a>. Berlin.
+    Mostly doing the boring things. Sometimes writing about it here.
+  </p>
+  <p class="intro">
+    Before that — various things across the stack. Ruby, Clojure, infrastructure, whatever needed building. I've been doing this for a while.
+  </p>
+  <div class="links-row">
+    <a href="https://github.com/maxprokopiev">GitHub</a>
+    <a href="https://chaos.social/@maxprokopiev">Mastodon</a>
+    <a href="https://linkedin.com/in/maxprokopiev">LinkedIn</a>
+    <a href="mailto:me@maxprokopiev.com">Email</a>
+    <a href="/cv.html">CV</a>
+  </div>
 
-<section>
-  <p>You can find me on <a href="https://github.com/maxprokopiev" target="_blank">Github</a>, <a href="https://twitter.com/maxprokopiev" target="_blank">Twitter</a> and <a href="https://linkedin.com/pub/max-prokopiev/72/98a/8b4/" target="_blank">LinkedIn</a>.</p>
-</section>
-
-<section>
-  <p>From time to time I write my thoughts here:</p>
-  <ul>
-    <li><a href="/posts/boring-things">"Boring" things</a></li>
-    <li><a href="/posts/juggling-and-zen">Juggling and Zen</a></li>
-    <li><a href="/posts/the-setup">The Setup</a></li>
+  <div class="section-title">posts</div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% assign post_year = post.date | date: "%Y" %}
+      {% unless post_year == "2013" %}
+    <li class="post-item">
+      <span class="post-date">{{ post.date | date: "%b %Y" }}</span>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+      {% endunless %}
+    {% endfor %}
   </ul>
-</section>
 
-<section>
-  <p>You can contact me by email: <a href="mailto:me@maxprokopiev.com">me@maxprokopiev.com</a>.</p>
-  <p>Here is my CV: <a href="cv.html" target="_blank">take a look</a>
-</section>
+  <details class="archive">
+    <summary>archive (2013)</summary>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        {% assign post_year = post.date | date: "%Y" %}
+        {% if post_year == "2013" %}
+      <li class="post-item">
+        <span class="post-date">{{ post.date | date: "%b %Y" }}</span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </details>
+
+  <footer>Opinions are generated using a fleet of autonomous agents in the cloud.</footer>
+</div>
