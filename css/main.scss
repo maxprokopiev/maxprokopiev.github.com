@@ -53,6 +53,54 @@ body {
 }
 .home .post-item a { color: var(--text); text-decoration: none; font-size: 20px; }
 .home .post-item a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.home .project-list {
+  list-style: none;
+  margin-bottom: 48px;
+  padding-left: 0;
+}
+.home .project-item {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  padding: 20px 22px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fafcfd 0%, #f6fbfb 100%);
+}
+.home .project-item-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  flex-shrink: 0;
+}
+.home .project-item-body {
+  min-width: 0;
+}
+.home .project-item-meta {
+  display: block;
+  margin-bottom: 4px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-faint);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.home .project-item-link {
+  display: inline-block;
+  margin-bottom: 6px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 22px;
+}
+.home .project-item-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.home .project-item p {
+  color: var(--text-secondary);
+  font-size: 19px;
+  line-height: 1.7;
+}
 .home .archive {
   margin-bottom: 48px;
 }
@@ -123,6 +171,246 @@ body {
   text-decoration: underline; text-underline-offset: 3px;
 }
 
+/* ─── PROJECT PAGE ─── */
+.project-page.content-wrap {
+  max-width: 780px;
+}
+.project-page .post-back {
+  margin-bottom: 32px;
+  font-size: 16px;
+}
+.project-page .post-back a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+.project-page .post-back a:hover {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.project-page .project-hero {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.project-page .project-icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 26px;
+}
+.project-page .project-kicker,
+.project-page .project-section-title,
+.project-page .demo-label {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-faint);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.project-page h1 {
+  margin: 2px 0 10px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+.project-page .project-dek {
+  margin-bottom: 12px;
+  font-size: 28px;
+  line-height: 1.35;
+}
+.project-page .project-summary,
+.project-page .project-support-copy {
+  color: var(--text-secondary);
+  font-size: 20px;
+  line-height: 1.8;
+}
+.project-page .project-meta-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  padding-left: 0;
+}
+.project-page .project-meta-list li {
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.project-page .screenslice-demo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 40px;
+}
+.project-page .demo-panel {
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: linear-gradient(180deg, #fafcfd 0%, #f4f8fa 100%);
+}
+.project-page .demo-label {
+  margin-bottom: 12px;
+}
+.project-page .demo-screen {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  border-radius: 16px;
+  border: 1px solid #d8e1e4;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0)),
+    linear-gradient(135deg, #d7edf7 0%, #edf7f9 50%, #fff4f6 100%);
+}
+.project-page .demo-window {
+  position: absolute;
+  border-radius: 14px;
+  border: 1px solid rgba(90, 115, 130, 0.12);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 10px 30px rgba(78, 94, 107, 0.08);
+}
+.project-page .demo-window-primary {
+  top: 14%;
+  left: 9%;
+  width: 48%;
+  height: 38%;
+}
+.project-page .demo-window-secondary {
+  right: 8%;
+  bottom: 10%;
+  width: 42%;
+  height: 34%;
+}
+.project-page .demo-selection {
+  position: absolute;
+  top: 28%;
+  left: 26%;
+  width: 46%;
+  height: 34%;
+  border: 3px dashed #1cbf88;
+  border-radius: 16px;
+  background: rgba(28, 191, 136, 0.12);
+}
+.project-page .demo-selection span,
+.project-page .demo-output-badge {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-family: var(--mono);
+  font-size: 11px;
+}
+.project-page .demo-selection span {
+  color: #12785a;
+  background: rgba(255, 255, 255, 0.86);
+}
+.project-page .demo-output {
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid #d8e1e4;
+  background: #f7fafb;
+}
+.project-page .demo-output-toolbar {
+  height: 24px;
+  border-bottom: 1px solid #d8e1e4;
+  background:
+    radial-gradient(circle at 12px 12px, #ff6f61 0 3px, transparent 3px),
+    radial-gradient(circle at 24px 12px, #f5bf4f 0 3px, transparent 3px),
+    radial-gradient(circle at 36px 12px, #2ccf8d 0 3px, transparent 3px),
+    #eef4f6;
+}
+.project-page .demo-output-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background:
+    linear-gradient(135deg, rgba(2, 181, 211, 0.12), rgba(0, 0, 0, 0)),
+    linear-gradient(160deg, #102330 0%, #143241 45%, #1b5062 100%);
+}
+.project-page .demo-output-frame::after {
+  content: "";
+  position: absolute;
+  inset: 18% 16%;
+  border-radius: 14px;
+  border: 2px solid rgba(2, 181, 211, 0.45);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0)),
+    linear-gradient(135deg, rgba(28, 191, 136, 0.45), rgba(2, 181, 211, 0.2));
+}
+.project-page .demo-output-badge {
+  color: #d7fbff;
+  background: rgba(8, 19, 28, 0.48);
+}
+.project-page .project-section {
+  padding-top: 24px;
+  margin-bottom: 28px;
+  border-top: 1px solid var(--border);
+}
+.project-page .project-section-title {
+  margin-bottom: 14px;
+}
+.project-page .project-steps,
+.project-page .project-feature-list {
+  padding-left: 24px;
+}
+.project-page .project-steps li,
+.project-page .project-feature-list li {
+  margin-bottom: 12px;
+  color: #444;
+  font-size: 20px;
+  line-height: 1.8;
+}
+.project-page .project-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+.project-page .project-detail-list {
+  list-style: none;
+  padding-left: 0;
+}
+.project-page .project-detail-list li {
+  margin-bottom: 14px;
+}
+.project-page .project-detail-list strong {
+  display: block;
+  margin-bottom: 2px;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-faint);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.project-page .project-detail-list span {
+  color: #444;
+  font-size: 20px;
+  line-height: 1.7;
+}
+.project-page p a,
+.project-page li a {
+  color: var(--text);
+}
+.project-page p a:hover,
+.project-page li a:hover {
+  text-underline-offset: 3px;
+}
+.project-page .project-support-copy + .project-support-copy {
+  margin-top: 12px;
+}
+.project-page code {
+  font-family: var(--mono);
+  font-size: 0.9em;
+  background: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
 /* ─── 404 ─── */
 .not-found h1 { font-size: 28px; font-weight: 400; margin-bottom: 24px; }
 .not-found p {
@@ -130,3 +418,56 @@ body {
 }
 .not-found p a { color: var(--text); text-decoration: none; }
 .not-found p a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+@media (max-width: 720px) {
+  body {
+    font-size: 19px;
+  }
+
+  .content-wrap {
+    padding: 40px 20px 56px;
+  }
+
+  .home .project-item {
+    padding: 18px;
+    gap: 14px;
+  }
+
+  .home .project-item-link {
+    font-size: 20px;
+  }
+
+  .home .project-item p,
+  .home .post-item a,
+  .home .intro,
+  .post-page .post-body,
+  .project-page .project-summary,
+  .project-page .project-support-copy,
+  .project-page .project-steps li,
+  .project-page .project-feature-list li,
+  .project-page .project-detail-list span,
+  .not-found p {
+    font-size: 18px;
+  }
+
+  .post-page h1,
+  .project-page h1 {
+    font-size: 34px;
+  }
+
+  .project-page .project-hero,
+  .project-page .screenslice-demo,
+  .project-page .project-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .project-page .project-icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 20px;
+  }
+
+  .project-page .project-dek {
+    font-size: 23px;
+  }
+}

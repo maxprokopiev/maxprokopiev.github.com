@@ -19,6 +19,18 @@ layout: default
     <a href="/cv.html">CV</a>
   </div>
 
+  <div class="section-title">projects</div>
+  <ul class="project-list">
+    <li class="project-item">
+      <img class="project-item-icon" src="{{ "/assets/projects/screenslice-icon.png" | relative_url }}" alt="Screenslice app icon">
+      <div class="project-item-body">
+        <span class="project-item-meta">macOS utility</span>
+        <a class="project-item-link" href="{{ "/projects/screenslice/" | relative_url }}">Screenslice</a>
+        <p>Share a slice of your screen on video calls instead of your whole display.</p>
+      </div>
+    </li>
+  </ul>
+
   <div class="section-title">posts</div>
   <ul class="post-list">
     {% for post in site.posts %}
