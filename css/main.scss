@@ -195,6 +195,12 @@ body {
   align-items: center;
   margin-bottom: 28px;
 }
+.project-page .project-icon-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
 .project-page .project-icon {
   width: 120px;
   height: 120px;
@@ -214,6 +220,26 @@ body {
   font-size: 48px;
   font-weight: 400;
   line-height: 1.1;
+}
+.project-page .app-store-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid #d8e1e4;
+  background: linear-gradient(180deg, #fafcfd 0%, #eef4f6 100%);
+  color: #41505b;
+  font-family: var(--mono);
+  font-size: 13px;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.85) inset;
+}
+.project-page .app-store-badge:hover {
+  border-color: #c5d2d8;
+  background: linear-gradient(180deg, #ffffff 0%, #edf4f6 100%);
+  color: var(--text);
 }
 .project-page .project-dek {
   margin-bottom: 12px;
@@ -469,5 +495,15 @@ body {
 
   .project-page .project-dek {
     font-size: 23px;
+  }
+
+  .project-page .project-icon-column {
+    align-items: flex-start;
+  }
+
+  .project-page .app-store-badge {
+    min-height: 36px;
+    padding: 0 14px;
+    font-size: 12px;
   }
 }
